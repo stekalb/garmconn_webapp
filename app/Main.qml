@@ -102,7 +102,7 @@ MainView {
       },
       RadialAction {
         id: activities
-        iconSource: Qt.resolvedUrl("icons/002_trail.svg")
+        iconSource: Qt.resolvedUrl("icons/006_activities.svg")
         onTriggered: {
           webview.url = myUrl + "modern/activities"
         }
