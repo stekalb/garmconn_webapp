@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Garmin Connect
+Comment=Morph based alternate Garmin Connect Webapp
+Exec=qmlscene %u app/Main.qml --scaling --disable-gpu
+Terminal=false
+Type=Application
+Icon=icon.svg
+X-Ubuntu-Touch=true
+
+X-Ubuntu-Splash-Color=#ffffff
+X-Ubuntu-Splash-Image=app/icons/splash.svg
+
+Name[en_US]=Garmin Connect
