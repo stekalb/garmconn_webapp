@@ -10,26 +10,22 @@ import "config.js" as Conf
 
 MainView {
   id:window
-  //
-  // ScreenSaver {
-  //   id: screenSaver
-  //   screenSaverEnabled: !(Qt.application.active)
-  // }
 
   objectName: "mainView"
   //theme.name: "Ubuntu.Components.Themes.SuruDark"
   backgroundColor: Conf.AppBackgroundColor
   applicationName: "gconnectwap.ste-kal"
 
+  property string title: "garmin connect wepapp"
   property string myTabletUrl: Conf.TabletUrl
   property string myMobileUrl: Conf.MobileUrl
   property string myTabletUA: Conf.TabletUA
   property string myMobileUA: Conf.MobileUA
+  property string myZoom: Conf.Zoom
 
   property string myUrl: (Screen.devicePixelRatio == 1.625) ? myTabletUrl : myMobileUrl
-  //property string myUrl: "http://www.tagesanzeiger.ch"
   property string myUA: (Screen.devicePixelRatio == 1.625) ? myTabletUA : myMobileUA
-  //"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/67.0.3396.99 Chrome/67.0.3396.99 Safari/537.36"
+
   WebEngineView {
     id: webview
     anchors {
@@ -49,8 +45,11 @@ MainView {
       nav.visible = !nav.visible
       request.accept();
     }
+
     property string test: writeToLog("DEBUG","my URL:", myUrl);
     property string test2: writeToLog("DEBUG","PixelRatio:", Screen.devicePixelRatio);
+    property string test3: writeToLog("DEBUG","Zoom:", myZoom);
+
     function writeToLog(mylevel,mytext, mymessage){
       console.log("["+mylevel+"]  "+mytext+" "+mymessage)
       return(true);
@@ -62,22 +61,24 @@ MainView {
       property alias dataPath: webContext.persistentStoragePath
       dataPath: dataLocation
       httpUserAgent: myUA
+      httpCacheType: WebEngineProfile.NoCache
+      offTheRecord: false
     }
 
     anchors {
       fill:parent
       centerIn: parent.verticalCenter
     }
-
-    url: myUrl + "modern/#"
-    userScripts: [
+    zoomFactor: myZoom
+    url: myUrl + "modern/"
+    /*userScripts: [
       WebEngineScript {
         injectionPoint: WebEngineScript.DocumentCreation
         worldId: WebEngineScript.MainWorld
         name: "QWebChannel"
         sourceUrl: "ubuntutheme.js"
       }
-    ]
+    ]*/
   }
 
   RadialBottomEdge {
@@ -88,7 +89,7 @@ MainView {
         id: home
         iconName: "home"
         onTriggered: {
-          webview.url = myUrl + "modern/#"
+          webview.url = myUrl + "modern/"
         }
         text: qsTr("Home")
       },
@@ -152,10 +153,24 @@ MainView {
     ]
   }
 
+  function setFullscreen(fullscreen) {
+    if (!window.forceFullscreen) {
+      if (fullscreen) {
+        if (window.visibility != Window.FullScreen) {
+          internal.currentWindowState = window.visibility
+          window.visibility = 5
+        }
+      } else {
+        window.visibility = internal.currentWindowState
+      }
+    }
+  }
+
   Connections {
     target: Qt.inputMethod
     onVisibleChanged: nav.visible = !nav.visible
   }
+
   Connections {
     target: webview
 
@@ -168,23 +183,10 @@ MainView {
         nav.state = "shown"
       }
     }
-
   }
+
   Connections {
     target: window.webview
     onIsFullScreenChanged: window.setFullscreen(window.webview.isFullScreen)
-  }
-
-  function setFullscreen(fullscreen) {
-    if (!window.forceFullscreen) {
-      if (fullscreen) {
-        if (window.visibility != Window.FullScreen) {
-          internal.currentWindowState = window.visibility
-          window.visibility = 5
-        }
-      } else {
-        window.visibility = internal.currentWindowState
-      }
-    }
   }
 }

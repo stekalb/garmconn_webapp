@@ -3,12 +3,12 @@
   <img src="icon.png" width="256px" alt="tagi-web">
   <br>
   <br>
-  Unofficial Tagesanzeiger Web Client
+  Unofficial Garmin Connect Web Client
   <br>
   <br>
 </h1>
 
- unofficial Tagesanzeiger web client for Ubuntu Touch OS based on Webkit
+ unofficial Garmin Connect web client for Ubuntu Touch OS based on Webkit
 
 ## Credits
 Based on Code by mateosalta: https://github.com/mateosalta/cuddly-bassoon
