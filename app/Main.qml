@@ -5,7 +5,6 @@ import Morph.Web 0.1
 import "UCSComponents"
 import QtWebEngine 1.7
 import Qt.labs.settings 1.0
-import QtSystemInfo 5.5
 import "config.js" as Conf
 
 MainView {

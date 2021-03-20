@@ -1,5 +1,4 @@
 import QtQuick 2.4
-import QtFeedback 5.0
 import Ubuntu.Components 1.3
 import QtQuick.Window 2.1
 
@@ -37,15 +36,15 @@ Item {
 
   //property string writelog8: writeToLog("DEBUG","Orientation:", Screen.orientation);
 
-  HapticsEffect {
-    id: clickEffect
-    attackIntensity: 0.0
-    attackTime: 50
-    intensity: 1.0
-    duration: 10
-    fadeTime: 50
-    fadeIntensity: 0.0
-  }
+  // HapticsEffect {
+  //   id: clickEffect
+  //   attackIntensity: 0.0
+  //   attackTime: 50
+  //   intensity: 1.0
+  //   duration: 10
+  //   fadeTime: 50
+  //   fadeIntensity: 0.0
+  // }
 
   Rectangle {
     visible: bottomEdgeHint.state !== "collapsed"

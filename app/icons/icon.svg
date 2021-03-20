@@ -11,14 +11,11 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg879"
-   width="330"
-   height="330"
-   viewBox="0 0 330 330"
-   sodipodi:docname="splash.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
-   inkscape:export-filename="/home/stefan/git-projects/garmin-connect/app/icons/splash.png"
-   inkscape:export-xdpi="130.91"
-   inkscape:export-ydpi="130.91">
+   width="341.33334"
+   height="341.33334"
+   viewBox="0 0 341.33334 341.33334"
+   sodipodi:docname="icon.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
      id="metadata885">
     <rdf:RDF>
@@ -27,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -79,17 +76,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1556"
-     inkscape:window-height="1284"
+     inkscape:window-width="1530"
+     inkscape:window-height="1144"
      id="namedview881"
      showgrid="true"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:zoom="0.62769536"
-     inkscape:cx="162.5099"
-     inkscape:cy="-28.323743"
-     inkscape:window-x="166"
-     inkscape:window-y="113"
+     inkscape:zoom="1.7753906"
+     inkscape:cx="139.2112"
+     inkscape:cy="159.79836"
+     inkscape:window-x="190"
+     inkscape:window-y="210"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg879">
     <inkscape:grid
@@ -122,9 +119,14 @@
        inkscape:locked="false" />
   </sodipodi:namedview>
   <g
-     id="g6174"
-     transform="translate(0,-11.333344)"
-     style="fill:#0a6baf;fill-opacity:0.9975186">
+     id="g7414">
+    <rect
+       y="-3.6666565"
+       x="9.7699626e-15"
+       height="350"
+       width="345"
+       id="rect6108"
+       style="opacity:1;fill:#f5d90d;fill-opacity:1;stroke:none;stroke-width:1.01619709;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
     <rect
        clip-path="url(#clipPath6104)"
        transform="matrix(0.71146285,-0.70272371,0.70942222,0.70478373,0,0)"
@@ -133,7 +135,7 @@
        height="313.54303"
        width="570.56116"
        id="rect1641-3"
-       style="opacity:0.4;fill:#0a6baf;fill-opacity:0.9975186;stroke:none;stroke-width:3.88544536;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:0.4;fill:#f8a903;fill-opacity:1;stroke:none;stroke-width:3.88544536;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        clip-path="url(#clipPath6100)"
        transform="matrix(0.80079437,-0.59893937,0.58886374,0.80823233,0,0)"
@@ -142,20 +144,20 @@
        height="309.31699"
        width="560.68701"
        id="rect1641"
-       style="opacity:0.4;fill:#0a6baf;fill-opacity:0.9975186;stroke:none;stroke-width:3.82563233;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:0.4;fill:#010003;fill-opacity:1;stroke:none;stroke-width:3.82563233;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        clip-path="url(#clipPath6096)"
        id="path6090"
        transform="matrix(0.58971569,-0.80761093,0.77066884,0.63723586,0,0)"
        d="M -359.21893,146.91998 H 389.42676 V 558.40967 H -359.21893 Z"
-       style="opacity:0.4;fill:#0a6baf;fill-opacity:0.9975186;stroke:none;stroke-width:5.09869194;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.4;fill:#f8e303;fill-opacity:1;stroke:none;stroke-width:5.09869194;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
     <path
        clip-path="url(#clipPath6092)"
        transform="matrix(0.58971569,-0.80761093,0.77066884,0.63723586,0,0)"
        id="rect1641-3-5"
        d="M 2.8309059,-2.1662088 223.07624,276.96519 -43.287009,480.78631 -263.53234,201.65491 Z"
-       style="opacity:0.51300001;fill:#0a6baf;fill-opacity:0.9975186;stroke:none;stroke-width:5.09869194;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.51300001;fill:#0044c1;fill-opacity:1;stroke:none;stroke-width:5.09869194;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
