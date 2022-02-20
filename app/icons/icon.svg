@@ -15,7 +15,10 @@
    height="341.33334"
    viewBox="0 0 341.33334 341.33334"
    sodipodi:docname="icon.svg"
-   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   inkscape:export-filename="/home/stefan/git-projects/garmin-connect/app/icons/icon.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata885">
     <rdf:RDF>
@@ -118,46 +121,43 @@
        id="guide903"
        inkscape:locked="false" />
   </sodipodi:namedview>
-  <g
-     id="g7414">
-    <rect
-       y="-3.6666565"
-       x="9.7699626e-15"
-       height="350"
-       width="345"
-       id="rect6108"
-       style="opacity:1;fill:#f5d90d;fill-opacity:1;stroke:none;stroke-width:1.01619709;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" />
-    <rect
-       clip-path="url(#clipPath6104)"
-       transform="matrix(0.71146285,-0.70272371,0.70942222,0.70478373,0,0)"
-       y="179.65259"
-       x="-312.66501"
-       height="313.54303"
-       width="570.56116"
-       id="rect1641-3"
-       style="opacity:0.4;fill:#f8a903;fill-opacity:1;stroke:none;stroke-width:3.88544536;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
-       clip-path="url(#clipPath6100)"
-       transform="matrix(0.80079437,-0.59893937,0.58886374,0.80823233,0,0)"
-       y="204.34798"
-       x="-220.37326"
-       height="309.31699"
-       width="560.68701"
-       id="rect1641"
-       style="opacity:0.4;fill:#010003;fill-opacity:1;stroke:none;stroke-width:3.82563233;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <path
-       clip-path="url(#clipPath6096)"
-       id="path6090"
-       transform="matrix(0.58971569,-0.80761093,0.77066884,0.63723586,0,0)"
-       d="M -359.21893,146.91998 H 389.42676 V 558.40967 H -359.21893 Z"
-       style="opacity:0.4;fill:#f8e303;fill-opacity:1;stroke:none;stroke-width:5.09869194;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:connector-curvature="0" />
-    <path
-       clip-path="url(#clipPath6092)"
-       transform="matrix(0.58971569,-0.80761093,0.77066884,0.63723586,0,0)"
-       id="rect1641-3-5"
-       d="M 2.8309059,-2.1662088 223.07624,276.96519 -43.287009,480.78631 -263.53234,201.65491 Z"
-       style="opacity:0.51300001;fill:#0044c1;fill-opacity:1;stroke:none;stroke-width:5.09869194;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       inkscape:connector-curvature="0" />
-  </g>
+  <rect
+     style="opacity:1;fill:#f5d90d;fill-opacity:1;stroke:none;stroke-width:1.01619709;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0"
+     id="rect6108"
+     width="345"
+     height="350"
+     x="9.7699626e-15"
+     y="-3.6666565" />
+  <rect
+     style="opacity:0.4;fill:#f8a903;fill-opacity:1;stroke:none;stroke-width:3.88544536;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1641-3"
+     width="570.56116"
+     height="313.54303"
+     x="-312.66501"
+     y="179.65259"
+     transform="matrix(0.71146285,-0.70272371,0.70942222,0.70478373,0,0)"
+     clip-path="url(#clipPath6104)" />
+  <rect
+     style="opacity:0.4;fill:#010003;fill-opacity:1;stroke:none;stroke-width:3.82563233;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect1641"
+     width="560.68701"
+     height="309.31699"
+     x="-220.37326"
+     y="204.34798"
+     transform="matrix(0.80079437,-0.59893937,0.58886374,0.80823233,0,0)"
+     clip-path="url(#clipPath6100)" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:0.4;fill:#f8e303;fill-opacity:1;stroke:none;stroke-width:5.09869194;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M -359.21893,146.91998 H 389.42676 V 558.40967 H -359.21893 Z"
+     transform="matrix(0.58971569,-0.80761093,0.77066884,0.63723586,0,0)"
+     id="path6090"
+     clip-path="url(#clipPath6096)" />
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:0.51300001;fill:#0044c1;fill-opacity:1;stroke:none;stroke-width:5.09869194;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="M 2.8309059,-2.1662088 223.07624,276.96519 -43.287009,480.78631 -263.53234,201.65491 Z"
+     id="rect1641-3-5"
+     transform="matrix(0.58971569,-0.80761093,0.77066884,0.63723586,0,0)"
+     clip-path="url(#clipPath6092)" />
 </svg>

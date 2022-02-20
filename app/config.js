@@ -3,6 +3,7 @@ Config file for Garmin Connect webapp
 */
 
 // Common Settings
+var AppTitle = "garmin connect wepapp"
 var AppBackgroundColor = "black";
 var ActionBarScaleFactor = 1.75
 var NavBackgroundColor = "#000000";

@@ -1,9 +1,10 @@
 [Desktop Entry]
 Name=Garmin Connect
 Comment=Morph based alternate Garmin Connect Webapp
-Exec=qmlscene %u app/Main.qml --scaling --disable-gpu
+Exec=qmlscene %u app/Main.qml --scaling
 Terminal=false
 Type=Application
+Keywords=Garmin;Fitness;Sport;Health;
 Icon=app/icons/icon.png
 X-Ubuntu-Touch=true
 
